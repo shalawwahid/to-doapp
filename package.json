@@ -1,0 +1,17 @@
+{
+  "name": "simple-todo-app",
+  "version": "1.0.0",
+  "description": "A clean, modern, and simple to-do application powered by Node.js",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node test_api.js"
+  },
+  "keywords": ["todo", "nodejs", "clean-ui", "task-manager"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
