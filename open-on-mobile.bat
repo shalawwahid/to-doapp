@@ -2,21 +2,36 @@
 title CleanFlow Mobile Link
 cls
 echo ======================================================================
-echo          CleanFlow — Open on Mobile (NO Credit Card Needed!)
+echo          CleanFlow — Mobile Access (No Credit Card Needed)
 echo ======================================================================
 echo.
-echo  Step 1: Connect your phone to the same Wi-Fi as this computer.
+echo   1. Local Wi-Fi Link (Same Wi-Fi)
+echo      URL: http://10.119.225.106:3000
 echo.
-echo  Step 2: Open Safari (iPhone) or Chrome (Android) on your phone.
-echo.
-echo  Step 3: Type this link into your phone's browser:
-echo.
-echo        http://10.119.225.106:3000
+echo   2. Start Free Secure HTTPS Link (For Installing on Phone Screen)
 echo.
 echo ======================================================================
-echo  HOW TO INSTALL ON YOUR PHONE'S HOME SCREEN:
-echo  - iPhone (Safari):  Tap the Share button (square with arrow) -> "Add to Home Screen"
-echo  - Android (Chrome): Tap the 3 dots (top right) -> "Add to Home screen"
+set /p choice="Enter 1 or 2 (or press Enter for HTTPS): "
+
+if "%choice%"=="1" (
+    cls
+    echo ======================================================================
+    echo  Local Wi-Fi Link:
+    echo        http://10.119.225.106:3000
+    echo ======================================================================
+    echo  - Android: In Chrome, tap 3 dots -^> "Add to Home screen"
+    echo  - iPhone:  In Safari, tap Share  -^> "Add to Home Screen"
+    echo ======================================================================
+    pause
+    exit /b
+)
+
+cls
+echo ======================================================================
+echo  Starting Secure HTTPS Tunnel for Mobile App Installation...
 echo ======================================================================
 echo.
+echo  Your tunnel password if prompted: 130.193.250.106
+echo.
+npx localtunnel --port 3000
 pause
