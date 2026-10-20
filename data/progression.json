@@ -1,0 +1,60 @@
+{
+  "xp": 485,
+  "reflections": {
+    "2026-10-19": {
+      "mood": "energized",
+      "notes": "Strong day! Completed all routine activities and stayed disciplined."
+    },
+    "2026-10-20": {
+      "mood": "energized",
+      "notes": "Completed all core daily progression habits!",
+      "updatedAt": "2026-10-20T19:58:56.071Z"
+    }
+  },
+  "milestones": [
+    {
+      "id": "first_activity",
+      "title": "First Step",
+      "desc": "Completed your first scheduled activity",
+      "icon": "🎯",
+      "unlocked": true
+    },
+    {
+      "id": "morning_momentum",
+      "title": "Morning Momentum",
+      "desc": "Finished morning routine before 08:00 AM",
+      "icon": "🌅",
+      "unlocked": true
+    },
+    {
+      "id": "streak_3",
+      "title": "3-Day Consistency",
+      "desc": "Maintained activity for 3 days in a row",
+      "icon": "🔥",
+      "unlocked": true
+    },
+    {
+      "id": "polymath",
+      "title": "Holistic Growth",
+      "desc": "Completed activities in 3+ distinct categories",
+      "icon": "⚖️",
+      "unlocked": true
+    },
+    {
+      "id": "streak_7",
+      "title": "Week Champion",
+      "desc": "Hold an unbroken 7-day consistency streak",
+      "icon": "👑",
+      "unlocked": false
+    },
+    {
+      "id": "xp_1000",
+      "title": "Millennium Achiever",
+      "desc": "Accumulate 1,000 Total Progression XP",
+      "icon": "💎",
+      "unlocked": false
+    }
+  ],
+  "currentStreak": 3,
+  "longestStreak": 3
+}
