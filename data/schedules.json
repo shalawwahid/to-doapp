@@ -166,5 +166,29 @@
     "notes": "Log daily progression score and schedule tomorrow",
     "xp": 20,
     "createdAt": "2026-10-20T19:38:36.044Z"
+  },
+  {
+    "id": "s-1792526566623nhi",
+    "date": "2026-10-20",
+    "startTime": "09:30",
+    "endTime": "12:30",
+    "title": "Deep Work & Focus Session",
+    "category": "health",
+    "completed": false,
+    "notes": "",
+    "xp": 25,
+    "createdAt": "2026-10-20T20:02:46.623Z"
+  },
+  {
+    "id": "s-1792526590959rgt",
+    "date": "2026-10-20",
+    "startTime": "07:15",
+    "endTime": "08:00",
+    "title": "English Vocabulary & Reading (3 words)",
+    "category": "learning",
+    "completed": false,
+    "notes": "",
+    "xp": 25,
+    "createdAt": "2026-10-20T20:03:10.959Z"
   }
 ]
